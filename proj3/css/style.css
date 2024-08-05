@@ -1,0 +1,164 @@
+
+#header
+{
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+#header-navbar-left{
+    padding: 0;
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    
+    
+    
+}
+
+#header-navbar-left li{
+
+    list-style: none;
+    display:inline;
+    padding-right: 20px;
+    
+}
+
+#header-navbar-left a:hover{
+
+    border-bottom: 2px solid black;
+  
+}
+
+#header-navbar-left a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#header-navbar-right 
+{
+    padding: 0;
+    float:right;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+#header-navbar-right li
+{
+
+    display : inline;
+    padding-right: 4px;
+    
+}
+
+
+
+/* the microsoft logo at the top left */
+#microsoft-logo-header
+{
+    float : left;
+    width: 150px;
+    margin:10px 0;
+    margin-left: 100px;
+}
+
+
+#showcase
+{
+    background-image: url('../img/showcase.avif');
+    border: 1px solid black;
+    padding-bottom: 200px;
+}
+
+#showcase #showcase-text
+{
+    margin-top: 150px;
+    margin-left: 130px;
+}
+
+#showcase #new-text
+{
+    background-color:gold;
+    width: max-content;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#showcase #main-text
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#showcase p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#showcase button
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color : white;
+    padding : 10px;
+    background-color: dodgerblue;
+    border-radius: 2px;
+    border: none;
+}
+
+#window
+{
+
+    border: 1px solid black;
+    padding-bottom : 500px;
+    margin-top: 200px;
+}
+
+#window .box
+{
+    float: left;
+    width : 22%;
+    height: 475px;
+    margin-left: 20px;
+    margin-top:20px;
+    box-shadow: 1px 1px 2px silver;
+    border: 1px solid silver;
+
+
+}
+
+#window .box div
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#window .box p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+#window .box button
+{
+    margin-left: 15px;
+    height : 35px;
+    padding : 0 15px;
+    color : white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: dodgerblue;
+    border : none;
+    border-radius: 5px;
+}

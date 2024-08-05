@@ -1,0 +1,102 @@
+#logo
+{
+    margin-left: calc(49vw  - 136px);
+    margin-top: 50px;
+}
+
+#offered
+{
+    margin-left: 42vw;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+
+#empty
+{
+    width: 650px;
+}
+#country
+{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+th{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+table
+{
+    margin: 15px;
+}
+
+.bottom
+{
+    margin-top: 180px;
+    height:80px;
+    background-color:whitesmoke;
+}
+
+.btns
+{  
+    width: 145px;
+    height: 40px;
+    text-align: center;
+    color:rgb(60, 58, 58);
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 15px;
+}
+
+.btns:hover
+{
+    border: 1px solid silver;
+    box-shadow: 1px 1px 2px silver;
+}
+
+#buttons
+{
+    margin-left: 38vw;
+    margin-top: 35px;
+}
+
+#box
+{
+    width: 550px;
+    height: 40px;
+    margin-left: calc(47vw - 275px);
+    margin-top: 25px;
+
+    border-radius:30px;
+    border: 1px solid silver;
+    background-color: white;
+    background-image: url("img/search-icon.png");
+    background-repeat: no-repeat;
+    background-size: 15px; 
+    background-position-x: 15px;
+    background-position-y: 12px;
+    padding-left: 40px;
+    
+}
+
+
+#box:hover
+{
+    box-shadow: 1px 1px 2px silver;
+}
+
+#search
+{
+    position:relative;
+    width: 20px;
+    margin-top: 35px;
+    margin-right:  250px;
+}
